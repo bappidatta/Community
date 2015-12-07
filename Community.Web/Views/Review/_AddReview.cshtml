@@ -1,0 +1,30 @@
+﻿@model Community.Domain.Models.Review
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="container">
+    <div class="panel panel-default">
+        <div class="panel-heading">Add Review</div>
+
+        <div class="panel-body">
+            @using (Html.BeginForm("AddReview", "Review", FormMethod.Post, new { @class = "form-horizontal" }))
+            {
+                @Html.HiddenFor(model => model.BusinessID)
+                
+                <div class="form-group">
+                    <div class="col-xs-12">
+                        @Html.TextAreaFor(model => model.ReviewText, new { @class = "form-control", @placeholder = "Type your review" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-xs-offset-10 col-xs-2">
+                        <input type="submit" class="btn btn-block btn-primary" value="Post Review" />
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+

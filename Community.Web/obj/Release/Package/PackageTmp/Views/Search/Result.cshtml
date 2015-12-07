@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "Result";
+}
+
+<hr />
+
+<div class="container">
+    <div class="form-horizontal">
+
+        <div class="form-group">
+            @{
+                Html.RenderPartial("_Search");
+             }
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">Search Results</div>
+
+            <div class="panel-body">
+                <div class="form-group">
+                    @for (int i = 0; i < 10; i++)
+                    {
+                        Html.RenderPartial("_SearchResult");
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

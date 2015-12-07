@@ -1,0 +1,15 @@
+﻿@model Community.Domain.Models.Business
+
+<hr />
+
+<div class="container">
+    <div class="panel panel-default">
+        <div class="panel-heading">Add new Company or Service</div>
+
+        <div class="panel-body">
+            @{
+                Html.RenderPartial("_AddBusiness", Model);
+            }
+        </div>
+    </div>
+</div>

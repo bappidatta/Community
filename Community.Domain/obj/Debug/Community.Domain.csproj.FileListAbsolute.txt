@@ -1,0 +1,10 @@
+D:\Development\Project\Community\Community.Domain\bin\Debug\Community.Domain.dll
+D:\Development\Project\Community\Community.Domain\bin\Debug\Community.Domain.pdb
+D:\Development\Project\Community\Community.Domain\obj\Debug\Community.Domain.dll
+D:\Development\Project\Community\Community.Domain\obj\Debug\Community.Domain.pdb
+D:\Development\Project\Community\Community.Domain\bin\Debug\MongoDB.Bson.dll
+D:\Development\Project\Community\Community.Domain\bin\Debug\MongoDB.Driver.Core.dll
+D:\Development\Project\Community\Community.Domain\bin\Debug\MongoDB.Driver.dll
+D:\Development\Project\Community\Community.Domain\bin\Debug\MongoDB.Bson.xml
+D:\Development\Project\Community\Community.Domain\bin\Debug\MongoDB.Driver.xml
+D:\Development\Project\Community\Community.Domain\obj\Debug\Community.Domain.csprojResolveAssemblyReference.cache

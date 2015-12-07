@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Community";
+}
+
+<div class="jumbotron">
+    <div class="container">
+        <center class="col-md-12">
+            <h3>Welcome to Community</h3>
+            <p>Search whatever you want!</p>
+
+            @{
+                Html.RenderPartial("~/Views/Search/_SearchPanel.cshtml");
+             }
+        </center>
+    </div>
+</div>
+

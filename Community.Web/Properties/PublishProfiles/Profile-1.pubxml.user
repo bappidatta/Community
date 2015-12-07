@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\BAPPI\Desktop\WebSite</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Community.Web.dll">
+      <publishTime>08/07/2015 22:52:58</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>08/07/2015 17:00:42</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>08/07/2015 17:00:43</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>08/07/2015 17:00:41</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>08/07/2015 17:00:42</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>08/07/2015 17:00:42</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>08/07/2015 17:00:42</publishTime>
+    </File>
+    <File Include="Contents/css/bootstrap.min.css">
+      <publishTime>08/07/2015 17:07:09</publishTime>
+    </File>
+    <File Include="Contents/css/style.css">
+      <publishTime>08/07/2015 21:10:43</publishTime>
+    </File>
+    <File Include="Contents/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>08/07/2015 17:07:09</publishTime>
+    </File>
+    <File Include="Contents/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>08/07/2015 17:07:09</publishTime>
+    </File>
+    <File Include="Contents/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>08/07/2015 17:07:09</publishTime>
+    </File>
+    <File Include="Contents/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>08/07/2015 17:07:09</publishTime>
+    </File>
+    <File Include="Contents/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>08/07/2015 17:07:09</publishTime>
+    </File>
+    <File Include="Contents/images/128.jpg">
+      <publishTime>08/07/2015 17:07:09</publishTime>
+    </File>
+    <File Include="Contents/images/73.jpg">
+      <publishTime>08/07/2015 17:07:09</publishTime>
+    </File>
+    <File Include="Contents/js/vendors/bootstrap.min.js">
+      <publishTime>08/07/2015 17:07:09</publishTime>
+    </File>
+    <File Include="Contents/js/vendors/ie-emulation-modes-warning.js">
+      <publishTime>08/07/2015 17:07:09</publishTime>
+    </File>
+    <File Include="Contents/js/vendors/ie10-viewport-bug-workaround.js">
+      <publishTime>08/07/2015 17:07:09</publishTime>
+    </File>
+    <File Include="Contents/js/vendors/jquery.min.js">
+      <publishTime>08/07/2015 17:07:09</publishTime>
+    </File>
+    <File Include="Contents/js/vendors/raty/fonts/raty.eot">
+      <publishTime>08/07/2015 22:24:42</publishTime>
+    </File>
+    <File Include="Contents/js/vendors/raty/fonts/raty.svg">
+      <publishTime>08/07/2015 22:24:42</publishTime>
+    </File>
+    <File Include="Contents/js/vendors/raty/fonts/raty.ttf">
+      <publishTime>08/07/2015 22:24:42</publishTime>
+    </File>
+    <File Include="Contents/js/vendors/raty/fonts/raty.woff">
+      <publishTime>08/07/2015 22:24:42</publishTime>
+    </File>
+    <File Include="Contents/js/vendors/raty/images/cancel-off.png">
+      <publishTime>08/07/2015 22:24:42</publishTime>
+    </File>
+    <File Include="Contents/js/vendors/raty/images/cancel-on.png">
+      <publishTime>08/07/2015 22:24:42</publishTime>
+    </File>
+    <File Include="Contents/js/vendors/raty/images/star-half.png">
+      <publishTime>08/07/2015 22:24:42</publishTime>
+    </File>
+    <File Include="Contents/js/vendors/raty/images/star-off.png">
+      <publishTime>08/07/2015 22:24:42</publishTime>
+    </File>
+    <File Include="Contents/js/vendors/raty/images/star-on.png">
+      <publishTime>08/07/2015 22:24:42</publishTime>
+    </File>
+    <File Include="Contents/js/vendors/raty/jquery.raty.css">
+      <publishTime>08/07/2015 22:24:42</publishTime>
+    </File>
+    <File Include="Contents/js/vendors/raty/jquery.raty.js">
+      <publishTime>08/07/2015 22:24:42</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>08/07/2015 17:00:41</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>08/07/2015 21:30:02</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>08/07/2015 17:11:00</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>08/07/2015 21:50:12</publishTime>
+    </File>
+    <File Include="Views/Home/Support.cshtml">
+      <publishTime>08/07/2015 17:11:09</publishTime>
+    </File>
+    <File Include="Views/Search/Result.cshtml">
+      <publishTime>08/07/2015 22:32:48</publishTime>
+    </File>
+    <File Include="Views/Shared/_Feedback.cshtml">
+      <publishTime>08/07/2015 22:00:10</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>08/07/2015 22:39:23</publishTime>
+    </File>
+    <File Include="Views/Shared/_Search.cshtml">
+      <publishTime>08/07/2015 21:28:23</publishTime>
+    </File>
+    <File Include="Views/Shared/_SearchResult.cshtml">
+      <publishTime>08/07/2015 22:29:21</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>08/07/2015 17:00:41</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>08/07/2015 17:04:59</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/07/2015 22:52:59</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

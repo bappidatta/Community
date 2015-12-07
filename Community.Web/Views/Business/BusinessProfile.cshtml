@@ -1,0 +1,103 @@
+﻿@model Community.Services.ViewModels.BusinessProfileViewModel
+
+@{
+    ViewBag.Title = "Business Profile";
+}
+
+<hr />
+
+<div class="container">
+    <div class="panel panel-default">
+        <div class="panel-heading">Profile</div>
+
+        <div class="panel-body">
+            <div class="form-horizontal col-xs-6">
+                <div class="form-group">
+                    <label class="control-label col-xs-4">Name:</label>
+                    <div class="col-xs-8">
+                        @Model.Business.Name
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-xs-4">Description:</label>
+                    <div class="col-xs-8">
+                        @Model.Business.Description
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-xs-4">Email:</label>
+                    <div class="col-xs-8">
+                        @Model.Business.Email
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-xs-4">WebSite:</label>
+                    <div class="col-xs-8">
+                        @Model.Business.WebSite
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-xs-4">Phone:</label>
+                    <div class="col-xs-8">
+                        @Model.Business.Phone
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-xs-4">Address:</label>
+                    <div class="col-xs-8">
+                        @Model.Business.Address
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-xs-4">Country:</label>
+                    <div class="col-xs-8">
+                        @Model.Business.Country
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-xs-4">City:</label>
+                    <div class="col-xs-8">
+                        @Model.Business.City
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-xs-4">State:</label>
+                    <div class="col-xs-8">
+                        @Model.Business.State
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-xs-4">ZIP:</label>
+                    <div class="col-xs-8">
+                        @Model.Business.ZIP
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-6">
+                <div class="well">
+                    Gallery
+                </div>
+
+                <div class="well">
+                    Location
+                </div>
+
+                <div class="well">
+                    Recent Visitors
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@{ Html.RenderAction("Index", "Review", new { id = Model.Business.Id }); }

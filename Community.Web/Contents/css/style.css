@@ -1,0 +1,72 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 55px;
+  padding-bottom: 0px !important;
+}
+
+.navbar {
+    min-height: 55px;
+    padding-top: 10px;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    background-color: #337ab7;
+    color: #fff;
+}
+
+.navbar-nav > li > a {
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+.navbar-brand {
+    float: left;
+    font-size: 30px;
+    height: 38px;
+    line-height: 20px;
+    padding: 7px 15px;
+}
+
+.jumbotron {
+    background-color: #337ab7;
+    padding: 100px 5px 150px 5px;
+    margin-bottom: 0px;
+}
+.jumbotron h3{
+	color: #ffffff;
+    font-size: 5em;
+    font-weight: bold;
+}
+.jumbotron p {
+	color: #ffffff;
+	font-size: 30px;	
+}
+
+.jumbotron .form-control{
+    border-radius: 5px !important;
+    height: 50px;
+    font-size: 20px;
+}
+
+.jumbotron .btn{
+    border-radius: 5px !important;
+    height: 50px;
+    font-size: 20px;
+    background-color: #CCC;
+}
+
+footer{
+    background-color: #000;
+    min-height: 150px;
+}
+
+.right-header-menu {
+	padding-top: 7px;
+}
+
+.right-header-menu a, span, span.seperator {
+	text-decoration: none;
+	color: #FFFFFF;
+	padding-right: 5px;
+	font-size: 11px;
+}

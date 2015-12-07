@@ -1,0 +1,42 @@
+﻿@model Community.Services.ViewModels.SearchResultViewModel
+
+
+<div class="col-xs-6">
+    <div class="well">
+        <div class="form-group">
+            <div class="col-xs-3">
+                <div class="thumbnail">
+                    Image
+                </div>
+            </div>
+
+            <div class="col-xs-9">
+                <h4>
+                    <a href="\Business\GetBusinessProfile\@Model.BusinessID">Name: @Html.DisplayFor(model => model.Name)</a> 
+                </h4>
+                <p>
+                    Description: @Html.DisplayFor(model => model.Description)
+                </p>
+            </div>
+        </div>
+
+        <hr />
+
+        <div class="form-group">
+            <div class="col-xs-4">
+                <div class="rating"></div>
+            </div>
+            <div class="col-xs-2">
+                <a class="label label-primary">
+                    View <span class="badge">4</span>
+                </a>
+            </div>
+            <div class="col-xs-2">
+                <a class="label label-success">
+                    Review <span class="badge">4</span>
+                </a>
+            </div>
+            <div class="col-xs-4">Location</div>
+        </div>
+    </div>
+</div>

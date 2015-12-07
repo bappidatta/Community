@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Community.Services.ViewModels.SearchResultViewModel>
+
+@{
+    ViewBag.Title = "Result";
+}
+
+<hr />
+
+<div class="container">
+    <div class="form-horizontal">
+
+        <div class="form-group">
+            @{
+                Html.RenderPartial("_SearchPanel", new Community.Services.ViewModels.SearchViewModel());
+             }
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">Search Results</div>
+
+            <div class="panel-body">
+                <div class="form-group">
+                    @foreach (var item in Model)
+                    {
+                        Html.RenderPartial("_SearchResult", item);
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
